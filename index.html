@@ -7,5 +7,167 @@
 </head>
 <body>
     
+</body><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #00ffcc;
+    }
+
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #ffffff10;
+      border: 1px solid #00ffcc30;
+      border-radius: 12px;
+      padding: 20px;
+      flex: 1 1 250px;
+      max-width: 300px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 255, 204, 0.2);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #00ffcc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 0.9rem;
+      border-top: 1px solid #ffffff20;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        padding: 30px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.pravatar.cc/150?img=3" alt="Profile Photo">
+    <h1>Jawad Bhuiyan</h1>
+    <p>Web Developer | Creative Coder | Problem Solver</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p style="text-align: center; max-width: 700px; margin: auto;">
+      Hello! I'm Jawad, a passionate web developer with a knack for creating clean, user-friendly websites.
+      I enjoy turning complex problems into simple, beautiful designs. Let's build something amazing together!
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>HTML & CSS</h3>
+        <p>Clean and responsive web designs with modern CSS and animations.</p>
+      </div>
+      <div class="card">
+        <h3>JavaScript</h3>
+        <p>Interactive and dynamic front-end development with vanilla JS.</p>
+      </div>
+      <div class="card">
+        <h3>Git & GitHub</h3>
+        <p>Version control and collaboration using Git and GitHub workflows.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio site built with HTML, CSS, and a touch of JS.</p>
+      </div>
+      <div class="card">
+        <h3>Restaurant App</h3>
+        <p>A basic food ordering system using simple front-end logic.</p>
+      </div>
+      <div class="card">
+        <h3>Bus Booking System</h3>
+        <p>Project built in C++ simulating a ticket booking system.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Jawad Bhuiyan. All rights reserved.
+  </footer>
 </body>
+</html>
+
 </html>
